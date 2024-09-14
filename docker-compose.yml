@@ -3,7 +3,7 @@ version: "3.8"
 services:
 
   database:
-    # We use a mariadb image which supports both amd64 & arm64 architecture
+    # We use rajes de perrito pluto
     image: mariadb:10.6.4-focal
     restart: unless-stopped
     ports:
